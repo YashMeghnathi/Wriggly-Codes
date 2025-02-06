@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "isValidState",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "poolState",
+				"outputs": [
+					{
+						"internalType": "enum Pool.State",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"isValidState()": {
+					"details": "Checks if the pool is in the valid state (Initialized).",
+					"returns": {
+						"_0": "True if the pool is in the valid state, false otherwise."
+					}
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Codes(EASY)/Variable Check.sol": "Pool"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Codes(EASY)/Variable Check.sol": {
+			"keccak256": "0x0c6e499c3a6de882276cdb15d9d63ab8d0d1e21629ed3b3c2a810ef2ce123432",
+			"urls": [
+				"bzz-raw://5c7907de1925d51e0a012764c8cc1f444d0e62d7604dd0bb0d06a17574dd551d",
+				"dweb:/ipfs/QmTrigK2f9HBvJqh84UTwJKepPMnQsGz7n1pjwLMVGWdRt"
+			]
+		}
+	},
+	"version": 1
+}

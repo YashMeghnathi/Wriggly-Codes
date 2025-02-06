@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "str",
+						"type": "string"
+					}
+				],
+				"name": "getStringLength",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Codes(EASY)/String Length.sol": "Sol"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Codes(EASY)/String Length.sol": {
+			"keccak256": "0xed4b52abe61cd97484011bd1809e8ee97f72ced2ab94c9da7f2567c5d75d243f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fd2e452e7dd30057f528c3ae10486702dbbbf739a1f8d4af589739ad4481c5b7",
+				"dweb:/ipfs/QmX4HGf21WZri9bTi1mUFjxVhYN9zVDpboG9qJTDgb5jiZ"
+			]
+		}
+	},
+	"version": 1
+}

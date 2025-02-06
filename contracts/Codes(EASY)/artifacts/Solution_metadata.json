@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_message",
+						"type": "string"
+					}
+				],
+				"name": "ripemdHash",
+				"outputs": [
+					{
+						"internalType": "bytes20",
+						"name": "",
+						"type": "bytes20"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Codes(EASY)/Simple Hash Two.sol": "Solution"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Codes(EASY)/Simple Hash Two.sol": {
+			"keccak256": "0xffcc35cbbd104c8b274e382213ec21e7cba90f44583a6e2e15aa9bc1bb05ac41",
+			"urls": [
+				"bzz-raw://d6ba08d6d82b824f5d25a3a471636eec48b07f6d747630780f527f10b13218a4",
+				"dweb:/ipfs/QmWpnepVAqDTyKUcJ9vHsdU8QCujiBypcWb8BJDR7PJtcR"
+			]
+		}
+	},
+	"version": 1
+}
