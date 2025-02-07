@@ -7,3 +7,16 @@ contract StringComparisonContract {
        return keccak256(abi.encodePacked(str1)) == keccak256(abi.encodePacked(str2));
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
