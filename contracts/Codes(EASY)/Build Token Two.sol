@@ -30,4 +30,3 @@ contract WrigglyToken is ERC20 {
     function getBalance() public view returns (uint256) {
         return balanceOf(msg.sender);
     }
-}
