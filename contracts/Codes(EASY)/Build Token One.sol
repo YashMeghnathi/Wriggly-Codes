@@ -20,3 +20,4 @@ contract WrigglyToken is ERC20 {
         uint256 rawBalance = balanceOf(msg.sender);
         return rawBalance / 10 ** decimals(); // Adjusting for decimals
     }
+}
