@@ -9,14 +9,14 @@ contract WrigglyToken is ERC20 {
     address public owner;
 
     constructor(uint256 initialSupply) ERC20("My Token", "MTKN") {
-        // TODO
+    
         owner=msg.sender;
          _mint(msg.sender, initialSupply * 10 ** decimals());
 
     }
 
     function getBalance() public view returns (uint256) {
-        // TODO
+        
         uint256 rawBalance = balanceOf(msg.sender);
         return rawBalance / 10 ** decimals(); // Adjusting for decimals
     }
