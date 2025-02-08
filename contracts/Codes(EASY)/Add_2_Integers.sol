@@ -11,7 +11,6 @@ contract Solution {
         pure
         returns (uint256)
     {
-        //TODO
       return a+b;
     }
 }
