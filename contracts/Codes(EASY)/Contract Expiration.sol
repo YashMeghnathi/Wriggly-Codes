@@ -5,19 +5,16 @@ contract MyContract {
     uint public expirationTime;
 
     constructor() {
-        // TODO: Set creationTime to block timestamp
       creationTime=block.timestamp;
     }
 
     function onTime() public {
-        // TODO: Set expirationTime to be after creationTime
-    expirationTime=creationTime+86400;
+     expirationTime=creationTime+86400;
       
     }
 
-    function expire() public {
-        // TODO: Set expirationTime to be before creationTime
-                expirationTime=creationTime-86400;
+    function expire() public {               
+     expirationTime=creationTime-86400;
 
 
 
