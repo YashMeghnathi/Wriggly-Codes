@@ -17,7 +17,7 @@ contract Solution {
         string memory _name,
         uint256 _price
     ) public onlyOwner {
-        // TODO
+    
       inventory.push(Item(_name,_price));
     }
 
@@ -26,12 +26,11 @@ contract Solution {
     }
 
     function getInventory() public view returns (Item[] memory) {
-        // TODO
+        
       return inventory;
     }
 
     function clearInventory() private onlyOwner {
-        // TODO
       delete inventory;
     }
 }
