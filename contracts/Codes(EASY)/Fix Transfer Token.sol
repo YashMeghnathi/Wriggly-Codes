@@ -39,7 +39,7 @@ contract ERC20 {
     function transfer(address to, uint256 amount)
         public
         virtual
-        returns (bool)
+        returns (bool)   
     {
         address owner = msg.sender;
         _transfer(owner, to, amount);
