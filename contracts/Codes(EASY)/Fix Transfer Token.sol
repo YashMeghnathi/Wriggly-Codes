@@ -10,7 +10,7 @@ contract ERC20 {
      * e.g. implement automatic token fees, slashing mechanisms, etc.
      *
      * Emits a {Transfer} event.
-     *
+     *   
      * Requirements:
      *
      * - `from` cannot be the zero address.
