@@ -12,3 +12,4 @@ contract SimpleHash {
         // TODO
       return hashValue;
     }
+}
