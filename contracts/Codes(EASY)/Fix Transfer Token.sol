@@ -17,7 +17,7 @@ contract ERC20 {
      * - `to` cannot be the zero address.
      * - `from` must have a balance of at least `amount`.
      */
-    function _transfer(
+    function _transfer(   
         address from,
         address to,
         uint256 amount
