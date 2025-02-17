@@ -19,6 +19,7 @@ contract Test {
     ) public pure returns (uint) {
         return (a * b) % c;
 }
-}
+
+  }
 
     
